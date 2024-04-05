@@ -19,7 +19,7 @@ int main()
     
     double result = calculate(n);
     
-    cout<<fixed<<setprecision(8);
+    cout<<fixed<<setprecision(n-2);   
     cout<<result;
 
     return 0;
